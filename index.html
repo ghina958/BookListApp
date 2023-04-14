@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="master.css">
+    <title>  My BOOK LİST APP  </title>
+</head>
+   
+<body class="back">
+
+<div class="container mt-4">
+    <h1 class="mybook"> My Book List</h1>
+
+    <form   id="book-form" >
+    <div   class="bord">
+
+    <div   class="group">
+       <label for="floatingTextarea">Title </label>
+       <input type="text" id="title" style="padding-left:80px" class="form-control">
+       </div>
+    <div class="group">
+        <label for="author" >Author </label>
+        <input type="text" id="author" style="padding-left:80px" ;class="form-control">
+        </div>
+    <div class="group">
+        <label for="isbn">İSBN</label>
+        <input type="text" id="isbn" style="padding-left:80px" class="form-control">
+        </div>
+    
+        <input  class="addbtn" type="submit" value="Add Book"  >
+        </div>
+    
+    <table class="table">
+       <thead>
+       <tr>
+          <th>title</th>
+          <th>author</th>
+          <th>isbn</th>
+          <th></th>
+       </tr>
+       </thead>
+       <tbody id="book-list"></tbody>
+    </table>
+</form>
+</div>
+
+<script src="app.js"> </script>
+</body>
+</html

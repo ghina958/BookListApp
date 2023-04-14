@@ -1,0 +1,46 @@
+.back{
+
+    background-color: lightblue;
+}
+.bord{
+ border:  5px solid white;
+ border-width: 30px 10px 30px 10;
+ background-color: lightgrey;
+ width: 300px;
+ padding: 50px;
+ margin: 20px;
+ margin-left:445px ;
+ margin-top: 30px;
+
+}
+.mybook{
+    font-family: cursive; text-align: center; margin-top: 60px; color:black ;
+}
+
+.group{
+    padding: 10px; 
+}
+.addbtn{
+margin-top: 20px;
+margin-left: 100px ;
+font-family: cursive; 
+background-color: lightblue;
+border: 3px solid white;
+border-radius: 12px;
+font-size: 17px;
+
+}
+
+.table{
+   
+    border-collapse: collapse;
+    width: 40%;
+    margin-left:416px ;
+}
+th, td {
+    padding: 5px;
+    text-align:center;
+    border-bottom: 1px solid #ddd;
+  }
+
+
